@@ -15,7 +15,6 @@
         android:orientation="vertical">
 
     <LinearLayout
-        android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
@@ -29,13 +28,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:padding="10dp"
-            android:text="Send Direct Message"
+            android:text="@string/send_direct_message"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
             android:textSize="18sp" />
 
         <ImageView
             android:layout_weight="0.1"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:id="@+id/img_donate"
@@ -71,7 +71,7 @@
                 android:maxLength="3"
                 android:maxLines="1"
                 android:padding="10dp"
-                android:text="91" />
+                android:text="@string/_91" />
 
             <EditText
                 android:focusable="true"
@@ -81,7 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Enter Number"
+                android:hint="@string/enter_number"
                 android:inputType="number"
                 android:maxLength="10"
                 android:maxLines="1"
@@ -93,7 +93,7 @@
             android:textColorHint="@color/colorAccent"
             android:textColor="@color/colorAccent"
             android:id="@+id/edText"
-            android:hint="Enter Message"
+            android:hint="@string/enter_message"
             android:inputType="textMultiLine"
             android:padding="10dp"
             android:layout_margin="10dp"
@@ -107,6 +107,6 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Send" />
+            android:text="@string/send" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
